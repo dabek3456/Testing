@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.ComponentModel.DataAnnotations;
+
 namespace WebApplication8.Models
 {
     using System;
@@ -15,9 +17,13 @@ namespace WebApplication8.Models
     public partial class Employee
     {
         public int EmployeeId { get; set; }
+        [Required]
         public string Name { get; set; }
+        [Required]
         public string Gender { get; set; }
+        [Required]
         public string City { get; set; }
+        [Required]
         public Nullable<int> DepartmentId { get; set; }
     
         public virtual Department Department { get; set; }

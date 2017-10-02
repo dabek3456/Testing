@@ -158,6 +158,7 @@
     <Compile Include="Models\Department.cs">
       <DependentUpon>EmployeeDataModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\DepartmentTotals.cs" />
     <Compile Include="Models\Employee.cs">
       <DependentUpon>EmployeeDataModel.tt</DependentUpon>
     </Compile>
